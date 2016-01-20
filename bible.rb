@@ -7,7 +7,7 @@ class BibleSearcher
   end
 
   def search
-    @url = "https://www.biblegateway.com/passage/?search=#{search_text}#{'&version=' + version if version != ''}"
+    @url = "<https://www.biblegateway.com/passage/?search=#{search_text}#{'&version=' + version if version != ''}>"
   end
 
   def split_text
